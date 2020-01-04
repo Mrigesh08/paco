@@ -20,8 +20,8 @@ app.set('view engine','ejs');
 
 
 app.get('/',function(req,res){
-	res.render('index.ejs')
+	res.render('index2.ejs')
 });
 
 server.listen(port);
-console.log('ContentHolmes app running on port ' + port);
+console.log('PaCo app running on port ' + port);
