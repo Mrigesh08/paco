@@ -1,0 +1,28 @@
+{
+  "name": "PacoServer",
+  "version": "1.0.0",
+  "description": "The Revolution",
+  "main": "index.js",
+  "author": "Mrigesh Madaan",
+  "license": "ISC",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ajax-request": "^1.2.1",
+    "base64url": "^3.0.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "morgan": "^1.7.0",
+    "pos": "^0.4.2"
+  }
+}
