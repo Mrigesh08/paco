@@ -17,6 +17,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
   <!-- <script src="/js/vanta.waves.min.js"></script> -->
   <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+  <link rel="stylesheet" href="/css/animate.min.css">
+  <script src="/js/wow.min.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -133,17 +136,17 @@
       </div>
       <div class="row">
         <div class="col-sm-8" >
-          <img src="/images/Indiamap.png" class="indiamap">
+          <img src="/images/Indiamap.png" class="indiamap wow slideInUp">
         </div>
         <div class="col-sm-4">
           <div class="indiamaptext text-muted" >
-            <div class="indiamaptext-verticalcenter">
+            <div class="indiamaptext-verticalcenter wow slideInLeft">
             55% Untapped. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             </div>
           </div>
           <div class="indiamaptext text-muted" >
-            <div class="indiamaptext-verticalcenter">
+            <div class="indiamaptext-verticalcenter wow slideInLeft">
             45% tapped. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             </div>
@@ -735,6 +738,9 @@
     waveHeight: 16.50,
     zoom: 0.79
   });
+  </script>
+  <script>
+    new WOW().init();
   </script>
 </body>
 
