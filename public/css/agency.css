@@ -214,12 +214,13 @@ img::-moz-selection {
 }
 
 header.masthead {
+  height: 1000px;
   color: white;
-  background-image: url("../images/farmer2.png");
+  background-image: url("../images/phone2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-position: center 200px;
+  background-size: 25%;
 }
 
 header.masthead .intro-text {
