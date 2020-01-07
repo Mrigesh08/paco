@@ -65,6 +65,22 @@ h6 {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   
 }
+.banner-img-nokia{
+  position: absolute;
+  height: 90%;
+  bottom: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+.banner-img-iphone{
+  position: absolute;
+  height: 100%;
+  bottom: 0px;
+  z-index: 1;
+  left: 220px;  
+}
+
 
 .banks-text, .featurephones-text{
   font-size: 1.5em;
@@ -220,8 +236,10 @@ img::-moz-selection {
     padding: 12px 0;
   }
 }
-
 header.masthead {
+  background-image: linear-gradient(to right, #ddd, #fff);
+}
+/*header.masthead {*/
   /*background-image: radial-gradient(#ffff33, #fed136, #fed136);*/
   /*
   background-image: url("../images/phone2.png");
@@ -229,7 +247,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center 200px;
   background-size: 25%;*/
-}
+/*}*/
 
 header.masthead .intro-text {
   padding-top: 150px;
