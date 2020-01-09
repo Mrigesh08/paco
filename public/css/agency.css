@@ -81,6 +81,24 @@ h6 {
   left: 220px;  
 }
 
+.banner-img-logo{
+  height: 25%;
+}
+
+.navbar-color{
+  background-color: #0f0f10;
+}
+
+.parallax-scroll{
+
+  background-image: url("/images/iphonenokia.png");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: 80% 110%;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
 
 .banks-text, .featurephones-text{
   font-size: 1.5em;
@@ -237,7 +255,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  background-image: linear-gradient(to right, #ddd, #fff);
+  background-image: linear-gradient(to bottom, #0f0f10, #181a1c);
 }
 /*header.masthead {*/
   /*background-image: radial-gradient(#ffff33, #fed136, #fed136);*/
