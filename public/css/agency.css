@@ -94,7 +94,7 @@ h6 {
   background-image: url("/images/iphonenokia.png");
   height: 100%; 
   background-attachment: fixed;
-  background-position: 80% 110%;
+  background-position: 80% 100px;
   background-repeat: no-repeat;
   background-size: 30%;
 }
