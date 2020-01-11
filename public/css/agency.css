@@ -3,7 +3,9 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
-
+html {
+  scroll-behavior: smooth;
+ }
 body {
   overflow-x: hidden;
 }
@@ -211,6 +213,15 @@ h6 {
 .page-section .indiamap{
   width: 80%;
 }
+
+@media (max-width: 415px) {
+  .page-section .indiamap{
+    width: 100%;
+  }  
+
+
+}
+
 .page-section .indiamaptext{
   display: table;
   height: 50%;
