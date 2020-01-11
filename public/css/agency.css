@@ -124,7 +124,7 @@ h6 {
 
 @media (max-height: 730px) {
   .parallax-scroll{
-    background-position: 80% 12vh;
+    background-position: 80% 14vh;
   }
 }
 @media (max-height: 700px) {
