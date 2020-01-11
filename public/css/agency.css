@@ -6,7 +6,6 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
@@ -32,32 +31,44 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.font-alata{
+  font-family: 'Alata' , sans-serif;
+}
+.font-signika{
+
+  font-family: 'Signika', sans-serif;
+}
 .page-section {
   padding: 100px 0;
 }
 
 .banks{
-  height: 700px;
   background-image: url("../images/bank2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 80%;
-  background-position: 150% 0%;
+  background-size: 40%;
+  background-position: 100% center;
   
 }
-
+@media (max-width: 720px) {
+  .banks{
+    background-size: cover;
+    background-position: center;
+  }
+}
 .featurephones{
-  height: 700px;
   background-image: url("../images/fphone.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 500px;
-  background-position: 80% 100%;
+  background-position: 80% center;
   
 }
+
+
+
 
 .banner-img{
 
@@ -65,6 +76,7 @@ h6 {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   
 }
+
 .banner-img-nokia{
   position: absolute;
   height: 90%;
@@ -73,6 +85,7 @@ h6 {
   bottom: 0px;
   z-index: 2;
 }
+
 .banner-img-iphone{
   position: absolute;
   height: 100%;
@@ -82,21 +95,65 @@ h6 {
 }
 
 .banner-img-logo{
-  height: 20%;
+  width: 10vw;
 }
 
 .navbar-color{
   background-color: #0f0f10;
 }
 
-.parallax-scroll{
+.banner-left-col{
 
+  text-align: center; 
+  display: table; 
+  overflow: hidden;
+  height: 100vh;
+
+}
+
+.parallax-scroll{
   background-image: url("/images/iphonenokia.png");
-  height: 100%; 
+  height: 100vh; 
   background-attachment: fixed;
-  background-position: 80% 100px;
+  background-position: 80% center;
   background-repeat: no-repeat;
   background-size: 30%;
+}
+
+@media (max-height: 730px) {
+  .parallax-scroll{
+    background-position: 80% 12vh;
+  }
+}
+@media (max-height: 700px) {
+  .parallax-scroll{
+    background-position: 80% center;
+    background-size: 28%;
+  }
+}
+@media (max-width: 801px){
+  .parallax-scroll{
+    background-size: 35%;
+  }
+}
+
+@media (max-width: 520px) {
+  .banner-left-col{
+    /*border: 2px solid black;*/
+    padding-bottom: 20px; 
+
+  }
+  .parallax-scroll{
+    
+    background-position: center;
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 415px) {
+  .banner-img-logo{
+    width: 20vh;
+  }
 }
 
 .btn {
@@ -245,8 +302,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: transparent;
 }
 
 #mainNav .navbar-brand {
@@ -296,6 +352,12 @@ img::-moz-selection {
     padding: 12px 0;
   }
 }
+
+
+
+/*==============================================================================*/
+/*========================== Front Page ========================================*/
+/*==============================================================================*/
 header.masthead {
   background-image: linear-gradient(to bottom, #0f0f10, #181a1c);
 }
@@ -340,19 +402,21 @@ header.masthead .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    
   }
+  
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    
   }
 }
 
