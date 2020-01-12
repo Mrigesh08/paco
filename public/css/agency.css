@@ -124,10 +124,10 @@ h6 {
 
 @media (max-height: 730px) {
   .parallax-scroll{
-    background-position: 80% 14vh;
+    background-position: 80% 12vh;
   }
 }
-@media (max-height: 700px) {
+@media (max-height: 650px) {
   .parallax-scroll{
     background-position: 80% center;
     background-size: 28%;
@@ -156,6 +156,10 @@ h6 {
   .banner-img-logo{
     width: 20vh;
   }
+  .parallax-scroll {
+    background-attachment: initial;
+  }
+
 }
 
 .btn {
