@@ -209,6 +209,13 @@ h6 {
   font-size: 1.5em;
 }
 
+@media (max-width: 420px){
+  .banks-text, .featurephones-text{
+    font-size: 1em;
+  }  
+}
+
+
 .onboardingicons{
  font-size: 1em;
 }
@@ -244,6 +251,12 @@ h6 {
   text-align: center;
 }
 
+@media (max-width: 420px){
+  .page-section .indiamaptext{
+    font-size: 1em;
+  }  
+
+}
 .page-section .indiamaptext-verticalcenter{
   display: table-cell;
   vertical-align: middle;
